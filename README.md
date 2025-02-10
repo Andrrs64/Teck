@@ -14,6 +14,7 @@ The entire project uses raylib, because I couldn't be bothered dealing with Open
 
 ## TODO
 
+- [ ] Ditch CPM and link dependencies like a real man.
 - [ ] Expand on level data format to make it scalable, without redoing everything.
 - [ ] Fix collision detection. Right now it has a bunch of issues.
 - [ ] Model rendering. Will probably wait until level data format is done.
