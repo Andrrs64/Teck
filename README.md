@@ -13,9 +13,9 @@ The project contains of 3 parts:
 The entire project uses raylib: https://www.raylib.com/
 
 ### The editor uses these external libraries:
-tinyfiledialogs: http://tinyfiledialogs.sourceforge.net
-Dear ImGui: https://github.com/ocornut/imgui
-rlImGui: https://github.com/raylib-extras/rlImGui
+- tinyfiledialogs: http://tinyfiledialogs.sourceforge.net
+- Dear ImGui: https://github.com/ocornut/imgui
+- rlImGui: https://github.com/raylib-extras/rlImGui
 
 ## TODO
 
