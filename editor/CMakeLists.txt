@@ -1,7 +1,5 @@
 add_executable(Editor
     main.cpp
-    external/tinyfiledialogs.c
-    external/tinyfiledialogs.h
 )
 
 target_link_libraries(Editor core)
@@ -9,6 +7,7 @@ target_link_libraries(Editor core)
 target_link_libraries(Editor raylib)
 target_link_libraries(Editor imgui)
 target_link_libraries(Editor rlimgui)
+target_link_libraries(Editor tinyFileDialogs)
 
 # Checks if OSX and links appropriate frameworks (only required on MacOS)
 if (APPLE)

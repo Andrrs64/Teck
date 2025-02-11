@@ -10,13 +10,18 @@ The project contains of 3 parts:
 - game: the game itself, also written in c.
 - editor: the level editor, written in c++.
 
-The entire project uses raylib, because I couldn't be bothered dealing with OpenGl at the same time as learning c. I'll leave that for another project.
+The entire project uses raylib: https://www.raylib.com/
+
+### The editor uses these external libraries:
+tinyfiledialogs: http://tinyfiledialogs.sourceforge.net
+Dear ImGui: https://github.com/ocornut/imgui
+rlImGui: https://github.com/raylib-extras/rlImGui
 
 ## TODO
 
-- [ ] Ditch CPM and link dependencies like a real man.
 - [ ] Expand on level data format to make it scalable, without redoing everything.
 - [ ] Fix collision detection. Right now it has a bunch of issues.
 - [ ] Model rendering. Will probably wait until level data format is done.
 - [ ] Textures.
 - [ ] Combat + enemies.
+- [x] Ditch CPM and link dependencies like a real man.

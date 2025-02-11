@@ -5,8 +5,8 @@
 #include <imgui.h>
 #include <levelDataLoader.h>
 #include <player.h>
+#include <tinyfiledialogs.h>
 #include "editorState.h"
-#include "external/tinyfiledialogs.h"
 
 void loadLevelDataToBuffer(EditorState* state) {
     free(state->dataBuffer.position);
